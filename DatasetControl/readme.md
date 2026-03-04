@@ -51,8 +51,8 @@ subset.preprocess_images()
 subset.preprocess_params(scaler_type='minmax')
 
 # 6. Export to your framework of choice 
-train_loader, val_loader, test_loader = subset.get_loaders_torch(batch_size=32) (pytorch example)
-train_ds, val_ds, test_ds = subset.get_loaders_tf(batch_size=32) (tf example)
+train_loader, val_loader, test_loader = subset.get_loaders_torch(batch_size=32) #(pytorch example)
+train_ds, val_ds, test_ds = subset.get_loaders_tf(batch_size=32) #(tf example)
 ```
 ---
 
